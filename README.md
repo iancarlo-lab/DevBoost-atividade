@@ -1,4 +1,4 @@
-# DevBoost-atividade
+# DevBoost-ES6-classes
 
 To run project:
 
