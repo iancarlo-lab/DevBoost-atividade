@@ -7,12 +7,12 @@ export default class ContaCorrente extends DadosClientes {
     clienteEmail, 
     clienteCPF, 
     contaPoupanca,
-    ContaCorrenteId,
+    contaCorrenteId,
     saldo,
     movimentacao
   ) {
     super(clienteId, clienteNome, clienteEmail, clienteCPF, contaPoupanca);
-    this.ContaCorrenteId = ContaCorrenteId;
+    this.contaCorrenteId = contaCorrenteId;
     this.saldo = saldo;
     this.movimentacao = movimentacao;
   }
