@@ -22,11 +22,10 @@ export default class ContaCorrente extends DadosClientes {
   }
 
   movimentacoes() {
-    const movimentosCliente = this.movimentacao.map(({ operacao, custo }) => {
-        const transacoes = {operacao,custo};
-        return transacoes;
-      }
-    );
-    return movimentosCliente;
+    let transcacoes = []
+    for(let i = 0; i < this.movimentacao.length; i++){
+       transcacoes.push(this.movimentacao[i])
+    }
+    return transcacoes
   }
 }

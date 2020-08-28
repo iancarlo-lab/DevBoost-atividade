@@ -25,8 +25,8 @@ const mostrarClientes = dados.map(({
 
     const extrato = {
       dados_cliente: contaCliente.dadosCliente(),
-      saldo_poupança: contaCliente.poupanca,
-      saldo_conta_corrente: contaCliente.saldo,
+      saldo_poupança: `R$ ${contaCliente.poupanca}`,
+      saldo_conta_corrente:`R$ ${contaCliente.saldo}`,
       transacoes: contaCliente.movimentacoes(),
     };
 
